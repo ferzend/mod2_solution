@@ -1,0 +1,64 @@
+﻿* {
+  box-sizing:border-box;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h1 {
+  text-align :center;
+}
+
+.box1, .box2, .box3 {
+  background-color:grey;
+  border: 2px solid black;
+  margin: 10px;
+  clear: top;
+  display:inline-block;
+  position: relative;
+  min-widht:150px;
+}
+
+.title {
+  margin:0px;
+  width:100px;
+  float: right;
+  position: relative;
+  border:2px solid black;
+  }
+
+.chickenColor{
+  background-color:purple;
+}
+
+.beefColor {
+  background-color:red;
+}
+.sushiColor {
+  background-color:yellow;
+}
+
+@media(min-width:992px) {
+  .box1, .box2, .box3 {
+    width:30%;
+  }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+  .box1, .box2 {
+    width:45%;
+    display:inline-block;
+  }
+  .box3 {
+    width:93%;
+  }
+}
+
+@media(max-width:767px) {
+  .box1, .box2, .box3 {
+    width:100%;
+  }
+}
+
+
+
+
+
